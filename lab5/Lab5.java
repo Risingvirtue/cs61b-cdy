@@ -4,5 +4,9 @@
 
 public class Lab5 {
 	/* Change this to true when ready to submit. */
+<<<<<<< HEAD
 	public static boolean attendedLab = true;
+=======
+	public static boolean attendedLab = false;
+>>>>>>> 8d9d4048c1934d071ccb7ba25aaf264d3b9fb1db
 }

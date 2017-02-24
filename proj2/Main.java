@@ -22,7 +22,11 @@ public class Main {
             if (!line.trim().isEmpty()) {
                 String result = db.transact(line);
                 if (result.length() > 0) {
+<<<<<<< HEAD
                     System.out.println(db.transact(line));
+=======
+                    System.out.println(result);
+>>>>>>> 8d9d4048c1934d071ccb7ba25aaf264d3b9fb1db
                 }
             }
             System.out.print(PROMPT);
